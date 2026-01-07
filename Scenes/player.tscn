@@ -1,4 +1,4 @@
-[gd_scene load_steps=106 format=3 uid="uid://cfpdr7tviqkfh"]
+[gd_scene load_steps=141 format=3 uid="uid://cfpdr7tviqkfh"]
 
 [ext_resource type="Texture2D" uid="uid://58tosebk66aq" path="res://Textures/Игрок/Top_Down_Survivor/feet/idle/survivor-idle_0.png" id="1_14ki3"]
 [ext_resource type="Script" uid="uid://cikli7bjnijki" path="res://Scripts/player.gd" id="1_uvwc7"]
@@ -102,6 +102,41 @@
 [ext_resource type="Texture2D" uid="uid://daqh5mdnkjfrd" path="res://Textures/Игрок/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_17.png" id="99_g3j25"]
 [ext_resource type="Texture2D" uid="uid://dqfosgpcruqi4" path="res://Textures/Игрок/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_18.png" id="100_conkd"]
 [ext_resource type="Texture2D" uid="uid://cel5v5my0y20x" path="res://Textures/Игрок/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_19.png" id="101_8vg0g"]
+[ext_resource type="Texture2D" uid="uid://bbyesf7vj6huv" path="res://Textures/Игрок/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_0.png" id="103_uh6ff"]
+[ext_resource type="Texture2D" uid="uid://bgpvxgggi15dd" path="res://Textures/Игрок/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_1.png" id="104_ihrpn"]
+[ext_resource type="Texture2D" uid="uid://bljxvmbpbw37r" path="res://Textures/Игрок/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_2.png" id="105_4rjh6"]
+[ext_resource type="Texture2D" uid="uid://bg4ygjn2l1p6c" path="res://Textures/Игрок/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_3.png" id="106_cq7w1"]
+[ext_resource type="Texture2D" uid="uid://ccr0rm4osn4jf" path="res://Textures/Игрок/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_4.png" id="107_ho16k"]
+[ext_resource type="Texture2D" uid="uid://cphycmrs2xoxy" path="res://Textures/Игрок/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_5.png" id="108_o712r"]
+[ext_resource type="Texture2D" uid="uid://bus5bp3gq6vk1" path="res://Textures/Игрок/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_6.png" id="109_hfnjl"]
+[ext_resource type="Texture2D" uid="uid://dq1go58614ukl" path="res://Textures/Игрок/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_7.png" id="110_uxqhi"]
+[ext_resource type="Texture2D" uid="uid://dqofi2t0k1oim" path="res://Textures/Игрок/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_8.png" id="111_vbb78"]
+[ext_resource type="Texture2D" uid="uid://irdtbeo61062" path="res://Textures/Игрок/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_9.png" id="112_7anab"]
+[ext_resource type="Texture2D" uid="uid://wi6aadjc65rd" path="res://Textures/Игрок/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_10.png" id="113_q7v0o"]
+[ext_resource type="Texture2D" uid="uid://bcxpp4tedex71" path="res://Textures/Игрок/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_11.png" id="114_gc6xv"]
+[ext_resource type="Texture2D" uid="uid://bugoaga8iw7gi" path="res://Textures/Игрок/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_12.png" id="115_473p5"]
+[ext_resource type="Texture2D" uid="uid://cgygl85fkysjp" path="res://Textures/Игрок/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_13.png" id="116_yj2ec"]
+[ext_resource type="Texture2D" uid="uid://7byiybxexbmf" path="res://Textures/Игрок/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_14.png" id="117_a1mwt"]
+[ext_resource type="Texture2D" uid="uid://csy0ldr62rwkp" path="res://Textures/Игрок/Top_Down_Survivor/knife/idle/survivor-idle_knife_0.png" id="118_7rvty"]
+[ext_resource type="Texture2D" uid="uid://d0eimi1hpm6l8" path="res://Textures/Игрок/Top_Down_Survivor/knife/idle/survivor-idle_knife_1.png" id="119_npbv3"]
+[ext_resource type="Texture2D" uid="uid://u7kl6h2cg2yf" path="res://Textures/Игрок/Top_Down_Survivor/knife/idle/survivor-idle_knife_2.png" id="120_n2sjk"]
+[ext_resource type="Texture2D" uid="uid://bok8dh0l0vi1e" path="res://Textures/Игрок/Top_Down_Survivor/knife/idle/survivor-idle_knife_3.png" id="121_kl5x6"]
+[ext_resource type="Texture2D" uid="uid://co1qin67rot71" path="res://Textures/Игрок/Top_Down_Survivor/knife/idle/survivor-idle_knife_4.png" id="122_3e4cc"]
+[ext_resource type="Texture2D" uid="uid://cljlmg32cfsgk" path="res://Textures/Игрок/Top_Down_Survivor/knife/idle/survivor-idle_knife_5.png" id="123_siibh"]
+[ext_resource type="Texture2D" uid="uid://0sf0rf8043qg" path="res://Textures/Игрок/Top_Down_Survivor/knife/idle/survivor-idle_knife_6.png" id="124_kfwar"]
+[ext_resource type="Texture2D" uid="uid://chprdmffv7xgu" path="res://Textures/Игрок/Top_Down_Survivor/knife/idle/survivor-idle_knife_7.png" id="125_k2btx"]
+[ext_resource type="Texture2D" uid="uid://ca4hnsa28y8k6" path="res://Textures/Игрок/Top_Down_Survivor/knife/idle/survivor-idle_knife_8.png" id="126_76dak"]
+[ext_resource type="Texture2D" uid="uid://ja0q0324prf4" path="res://Textures/Игрок/Top_Down_Survivor/knife/idle/survivor-idle_knife_9.png" id="127_wf5ty"]
+[ext_resource type="Texture2D" uid="uid://7vrkjg5xasxy" path="res://Textures/Игрок/Top_Down_Survivor/knife/idle/survivor-idle_knife_10.png" id="128_cnw1c"]
+[ext_resource type="Texture2D" uid="uid://b2i30nc0f30gi" path="res://Textures/Игрок/Top_Down_Survivor/knife/idle/survivor-idle_knife_11.png" id="129_e77uf"]
+[ext_resource type="Texture2D" uid="uid://thbv16arg7dx" path="res://Textures/Игрок/Top_Down_Survivor/knife/idle/survivor-idle_knife_12.png" id="130_2yuc3"]
+[ext_resource type="Texture2D" uid="uid://b58ddqwcp6oqg" path="res://Textures/Игрок/Top_Down_Survivor/knife/idle/survivor-idle_knife_13.png" id="131_sjehy"]
+[ext_resource type="Texture2D" uid="uid://dnobo03ybtnvo" path="res://Textures/Игрок/Top_Down_Survivor/knife/idle/survivor-idle_knife_14.png" id="132_sg5e1"]
+[ext_resource type="Texture2D" uid="uid://7brf4y6auusb" path="res://Textures/Игрок/Top_Down_Survivor/knife/idle/survivor-idle_knife_15.png" id="133_c83yi"]
+[ext_resource type="Texture2D" uid="uid://d2ahaexd6lkw4" path="res://Textures/Игрок/Top_Down_Survivor/knife/idle/survivor-idle_knife_16.png" id="134_nyd3j"]
+[ext_resource type="Texture2D" uid="uid://n8getbgsfqys" path="res://Textures/Игрок/Top_Down_Survivor/knife/idle/survivor-idle_knife_17.png" id="135_0gchq"]
+[ext_resource type="Texture2D" uid="uid://bji3ptlkd5nbi" path="res://Textures/Игрок/Top_Down_Survivor/knife/idle/survivor-idle_knife_18.png" id="136_5w755"]
+[ext_resource type="Texture2D" uid="uid://2ac18ixwlkob" path="res://Textures/Игрок/Top_Down_Survivor/knife/idle/survivor-idle_knife_19.png" id="137_552og"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_lao3j"]
 animations = [{
@@ -440,6 +475,121 @@ animations = [{
 "loop": true,
 "name": &"Flashlight",
 "speed": 20.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("103_uh6ff")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104_ihrpn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105_4rjh6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106_cq7w1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107_ho16k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108_o712r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109_hfnjl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110_uxqhi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111_vbb78")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112_7anab")
+}, {
+"duration": 1.0,
+"texture": ExtResource("113_q7v0o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("114_gc6xv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("115_473p5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("116_yj2ec")
+}, {
+"duration": 1.0,
+"texture": ExtResource("117_a1mwt")
+}],
+"loop": false,
+"name": &"Knife_attack",
+"speed": 20.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("118_7rvty")
+}, {
+"duration": 1.0,
+"texture": ExtResource("119_npbv3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("120_n2sjk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("121_kl5x6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("122_3e4cc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("123_siibh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("124_kfwar")
+}, {
+"duration": 1.0,
+"texture": ExtResource("125_k2btx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("126_76dak")
+}, {
+"duration": 1.0,
+"texture": ExtResource("127_wf5ty")
+}, {
+"duration": 1.0,
+"texture": ExtResource("128_cnw1c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("129_e77uf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("130_2yuc3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("131_sjehy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("132_sg5e1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("133_c83yi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("134_nyd3j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("135_0gchq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("136_5w755")
+}, {
+"duration": 1.0,
+"texture": ExtResource("137_552og")
+}],
+"loop": true,
+"name": &"Knife_idle",
+"speed": 20.0
 }]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_5ca5e"]
@@ -454,9 +604,9 @@ animation = &"strafe_left"
 
 [node name="body" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_jhrtw")
-animation = &"Flashlight"
+animation = &"Knife_idle"
 centered = false
-offset = Vector2(-93, -107)
+offset = Vector2(-105, -113)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CircleShape2D_5ca5e")
