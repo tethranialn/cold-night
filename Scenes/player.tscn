@@ -211,7 +211,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"run",
-"speed": 30.0
+"speed": 20.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -600,7 +600,7 @@ script = ExtResource("1_uvwc7")
 
 [node name="feet" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_lao3j")
-animation = &"strafe_left"
+animation = &"run"
 
 [node name="body" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_jhrtw")

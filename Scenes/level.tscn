@@ -6,9 +6,24 @@
 [node name="Node2D" type="Node2D"]
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(1114.5, 1149.5)
-scale = Vector2(4.466, 4.59)
+position = Vector2(1115.5, 1100)
+scale = Vector2(4.827, 5)
+texture = ExtResource("1_tumq0")
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(3529.0002, 1100)
+scale = Vector2(4.827, 5)
+texture = ExtResource("1_tumq0")
+
+[node name="Sprite2D3" type="Sprite2D" parent="."]
+position = Vector2(1115.75, 3600)
+scale = Vector2(4.827, 5)
+texture = ExtResource("1_tumq0")
+
+[node name="Sprite2D4" type="Sprite2D" parent="."]
+position = Vector2(3528.25, 3600)
+scale = Vector2(4.827, 5)
 texture = ExtResource("1_tumq0")
 
 [node name="player" parent="." instance=ExtResource("2_k5f4k")]
-position = Vector2(297, 253)
+position = Vector2(2354, 2232)
