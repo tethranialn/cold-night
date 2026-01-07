@@ -1,0 +1,466 @@
+[gd_scene load_steps=106 format=3 uid="uid://cfpdr7tviqkfh"]
+
+[ext_resource type="Texture2D" uid="uid://58tosebk66aq" path="res://Textures/Игрок/Top_Down_Survivor/feet/idle/survivor-idle_0.png" id="1_14ki3"]
+[ext_resource type="Script" uid="uid://cikli7bjnijki" path="res://Scripts/player.gd" id="1_uvwc7"]
+[ext_resource type="Texture2D" uid="uid://cbnjqh4nd750j" path="res://Textures/Игрок/Top_Down_Survivor/feet/run/survivor-run_0.png" id="2_uvwc7"]
+[ext_resource type="Texture2D" uid="uid://ctgkm3yi6thb6" path="res://Textures/Игрок/Top_Down_Survivor/feet/run/survivor-run_1.png" id="3_t1r1w"]
+[ext_resource type="Texture2D" uid="uid://degc2vroxu864" path="res://Textures/Игрок/Top_Down_Survivor/feet/run/survivor-run_2.png" id="4_s3u64"]
+[ext_resource type="Texture2D" uid="uid://dpkvv8um2vj8e" path="res://Textures/Игрок/Top_Down_Survivor/feet/run/survivor-run_3.png" id="5_0cppb"]
+[ext_resource type="Texture2D" uid="uid://di3m55usapwdv" path="res://Textures/Игрок/Top_Down_Survivor/feet/run/survivor-run_4.png" id="6_s2qaf"]
+[ext_resource type="Texture2D" uid="uid://cf6ddcq8muqor" path="res://Textures/Игрок/Top_Down_Survivor/feet/run/survivor-run_5.png" id="7_jr4hp"]
+[ext_resource type="Texture2D" uid="uid://bw3cqmmd4dwje" path="res://Textures/Игрок/Top_Down_Survivor/feet/run/survivor-run_6.png" id="8_8h4oy"]
+[ext_resource type="Texture2D" uid="uid://dbdoyd7tvg7vd" path="res://Textures/Игрок/Top_Down_Survivor/feet/run/survivor-run_7.png" id="9_x8yfv"]
+[ext_resource type="Texture2D" uid="uid://dgi6xwyeg0qwl" path="res://Textures/Игрок/Top_Down_Survivor/feet/run/survivor-run_8.png" id="10_sg72k"]
+[ext_resource type="Texture2D" uid="uid://blv3i8vmeq2ck" path="res://Textures/Игрок/Top_Down_Survivor/feet/run/survivor-run_9.png" id="11_fjjiw"]
+[ext_resource type="Texture2D" uid="uid://cjs2agltpo1r7" path="res://Textures/Игрок/Top_Down_Survivor/feet/run/survivor-run_10.png" id="12_24pht"]
+[ext_resource type="Texture2D" uid="uid://csxbf8i2qtuon" path="res://Textures/Игрок/Top_Down_Survivor/feet/run/survivor-run_11.png" id="13_lvpu8"]
+[ext_resource type="Texture2D" uid="uid://dojk5mgkafmaw" path="res://Textures/Игрок/Top_Down_Survivor/feet/run/survivor-run_12.png" id="14_iw8ov"]
+[ext_resource type="Texture2D" uid="uid://cpjkoyjjwuavm" path="res://Textures/Игрок/Top_Down_Survivor/feet/run/survivor-run_13.png" id="15_s5ecd"]
+[ext_resource type="Texture2D" uid="uid://nacue25u0bua" path="res://Textures/Игрок/Top_Down_Survivor/feet/run/survivor-run_14.png" id="16_6ccf0"]
+[ext_resource type="Texture2D" uid="uid://u5yr5ax4qo13" path="res://Textures/Игрок/Top_Down_Survivor/feet/run/survivor-run_15.png" id="17_uh6ff"]
+[ext_resource type="Texture2D" uid="uid://dqjlb8bts4jc6" path="res://Textures/Игрок/Top_Down_Survivor/feet/run/survivor-run_16.png" id="18_ihrpn"]
+[ext_resource type="Texture2D" uid="uid://q02u0uy45pj4" path="res://Textures/Игрок/Top_Down_Survivor/feet/run/survivor-run_17.png" id="19_4rjh6"]
+[ext_resource type="Texture2D" uid="uid://b882lmddswctj" path="res://Textures/Игрок/Top_Down_Survivor/feet/run/survivor-run_18.png" id="20_cq7w1"]
+[ext_resource type="Texture2D" uid="uid://ddplh6nr7bvjk" path="res://Textures/Игрок/Top_Down_Survivor/feet/run/survivor-run_19.png" id="21_ho16k"]
+[ext_resource type="Texture2D" uid="uid://cfndpxjftihsd" path="res://Textures/Игрок/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_0.png" id="22_o712r"]
+[ext_resource type="Texture2D" uid="uid://dwxohs6u14wix" path="res://Textures/Игрок/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_1.png" id="23_hfnjl"]
+[ext_resource type="Texture2D" uid="uid://cce34lg0ydmk7" path="res://Textures/Игрок/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_2.png" id="24_uxqhi"]
+[ext_resource type="Texture2D" uid="uid://dhm7ck8s1e5sh" path="res://Textures/Игрок/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_3.png" id="25_vbb78"]
+[ext_resource type="Texture2D" uid="uid://6fa4qxwaj60b" path="res://Textures/Игрок/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_4.png" id="26_7anab"]
+[ext_resource type="Texture2D" uid="uid://ema7vj6pju6t" path="res://Textures/Игрок/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_5.png" id="27_q7v0o"]
+[ext_resource type="Texture2D" uid="uid://cldalqe5gcnma" path="res://Textures/Игрок/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_6.png" id="28_gc6xv"]
+[ext_resource type="Texture2D" uid="uid://drxa5bsvnujtx" path="res://Textures/Игрок/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_7.png" id="29_473p5"]
+[ext_resource type="Texture2D" uid="uid://paw606eunncj" path="res://Textures/Игрок/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_8.png" id="30_yj2ec"]
+[ext_resource type="Texture2D" uid="uid://bdrly3nvjgq6m" path="res://Textures/Игрок/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_9.png" id="31_a1mwt"]
+[ext_resource type="Texture2D" uid="uid://tnfb7fliunp7" path="res://Textures/Игрок/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_10.png" id="32_7rvty"]
+[ext_resource type="Texture2D" uid="uid://bhsim7yghb4dk" path="res://Textures/Игрок/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_11.png" id="33_npbv3"]
+[ext_resource type="Texture2D" uid="uid://d3vj3roykyj3g" path="res://Textures/Игрок/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_12.png" id="34_n2sjk"]
+[ext_resource type="Texture2D" uid="uid://lnqksucc8bum" path="res://Textures/Игрок/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_13.png" id="35_kl5x6"]
+[ext_resource type="Texture2D" uid="uid://d0qgu1phl0brp" path="res://Textures/Игрок/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_14.png" id="36_3e4cc"]
+[ext_resource type="Texture2D" uid="uid://effjn8o32unx" path="res://Textures/Игрок/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_15.png" id="37_siibh"]
+[ext_resource type="Texture2D" uid="uid://ciukk2juo1q56" path="res://Textures/Игрок/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_16.png" id="38_kfwar"]
+[ext_resource type="Texture2D" uid="uid://c5f0xq8it2lmm" path="res://Textures/Игрок/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_17.png" id="39_k2btx"]
+[ext_resource type="Texture2D" uid="uid://blyjm3rn8w8as" path="res://Textures/Игрок/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_18.png" id="40_76dak"]
+[ext_resource type="Texture2D" uid="uid://b46y0g6eo6k0j" path="res://Textures/Игрок/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_19.png" id="41_wf5ty"]
+[ext_resource type="Texture2D" uid="uid://c0m8lkcb1x0x7" path="res://Textures/Игрок/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_0.png" id="42_cnw1c"]
+[ext_resource type="Texture2D" uid="uid://4uhbi16ufqn1" path="res://Textures/Игрок/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_1.png" id="43_e77uf"]
+[ext_resource type="Texture2D" uid="uid://eva4127rtjrg" path="res://Textures/Игрок/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_2.png" id="44_2yuc3"]
+[ext_resource type="Texture2D" uid="uid://c2mpr2b2tsq4u" path="res://Textures/Игрок/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_3.png" id="45_sjehy"]
+[ext_resource type="Texture2D" uid="uid://c7cy8q0yotj25" path="res://Textures/Игрок/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_4.png" id="46_sg5e1"]
+[ext_resource type="Texture2D" uid="uid://ds35y2sqyglxg" path="res://Textures/Игрок/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_5.png" id="47_c83yi"]
+[ext_resource type="Texture2D" uid="uid://caw0qsinvc13h" path="res://Textures/Игрок/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_6.png" id="48_nyd3j"]
+[ext_resource type="Texture2D" uid="uid://bp2t281w7wfsi" path="res://Textures/Игрок/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_7.png" id="49_0gchq"]
+[ext_resource type="Texture2D" uid="uid://c72qru4uwxbds" path="res://Textures/Игрок/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_8.png" id="50_5w755"]
+[ext_resource type="Texture2D" uid="uid://delxnq8gcuw54" path="res://Textures/Игрок/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_9.png" id="51_552og"]
+[ext_resource type="Texture2D" uid="uid://bqaub0pg5rp0w" path="res://Textures/Игрок/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_10.png" id="52_giuho"]
+[ext_resource type="Texture2D" uid="uid://eo6mkivqbkvr" path="res://Textures/Игрок/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_11.png" id="53_gmm01"]
+[ext_resource type="Texture2D" uid="uid://dikfy1wror4i0" path="res://Textures/Игрок/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_12.png" id="54_ott2s"]
+[ext_resource type="Texture2D" uid="uid://b2x2axjehyc6" path="res://Textures/Игрок/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_13.png" id="55_ftehy"]
+[ext_resource type="Texture2D" uid="uid://rbjp0vlt0qyt" path="res://Textures/Игрок/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_14.png" id="56_ylvu8"]
+[ext_resource type="Texture2D" uid="uid://bxnthamf30lvf" path="res://Textures/Игрок/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_15.png" id="57_lustd"]
+[ext_resource type="Texture2D" uid="uid://cominxl6ddnju" path="res://Textures/Игрок/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_16.png" id="58_gbwas"]
+[ext_resource type="Texture2D" uid="uid://bc44uxclpqs3v" path="res://Textures/Игрок/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_17.png" id="59_ljkmv"]
+[ext_resource type="Texture2D" uid="uid://buae57558tmdo" path="res://Textures/Игрок/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_18.png" id="60_8k4al"]
+[ext_resource type="Texture2D" uid="uid://dnm232cxhk7h" path="res://Textures/Игрок/Top_Down_Survivor/feet/strafe_right/survivor-strafe_right_19.png" id="61_e0hkx"]
+[ext_resource type="Texture2D" uid="uid://bll7c06fb5x40" path="res://Textures/Игрок/Top_Down_Survivor/feet/walk/survivor-walk_0.png" id="62_xtit1"]
+[ext_resource type="Texture2D" uid="uid://dnrpckx0a5idf" path="res://Textures/Игрок/Top_Down_Survivor/feet/walk/survivor-walk_1.png" id="63_151ft"]
+[ext_resource type="Texture2D" uid="uid://bwnl73ec0578o" path="res://Textures/Игрок/Top_Down_Survivor/feet/walk/survivor-walk_2.png" id="64_274r3"]
+[ext_resource type="Texture2D" uid="uid://x6jcdx0a52uo" path="res://Textures/Игрок/Top_Down_Survivor/feet/walk/survivor-walk_3.png" id="65_5e4ga"]
+[ext_resource type="Texture2D" uid="uid://dqhbtowuirbbv" path="res://Textures/Игрок/Top_Down_Survivor/feet/walk/survivor-walk_4.png" id="66_rntbp"]
+[ext_resource type="Texture2D" uid="uid://bxrlhw116esov" path="res://Textures/Игрок/Top_Down_Survivor/feet/walk/survivor-walk_5.png" id="67_xw5nt"]
+[ext_resource type="Texture2D" uid="uid://cfk605jgmebrp" path="res://Textures/Игрок/Top_Down_Survivor/feet/walk/survivor-walk_6.png" id="68_rie18"]
+[ext_resource type="Texture2D" uid="uid://b2kfatbh4yhj8" path="res://Textures/Игрок/Top_Down_Survivor/feet/walk/survivor-walk_7.png" id="69_eycad"]
+[ext_resource type="Texture2D" uid="uid://247yo51f75wm" path="res://Textures/Игрок/Top_Down_Survivor/feet/walk/survivor-walk_8.png" id="70_3t3b1"]
+[ext_resource type="Texture2D" uid="uid://ci3m2lcnheh80" path="res://Textures/Игрок/Top_Down_Survivor/feet/walk/survivor-walk_9.png" id="71_dixlh"]
+[ext_resource type="Texture2D" uid="uid://cnrejg1wq0jet" path="res://Textures/Игрок/Top_Down_Survivor/feet/walk/survivor-walk_10.png" id="72_pd0oe"]
+[ext_resource type="Texture2D" uid="uid://34lqgg0nnyyc" path="res://Textures/Игрок/Top_Down_Survivor/feet/walk/survivor-walk_11.png" id="73_dxcir"]
+[ext_resource type="Texture2D" uid="uid://6hsm8nvvpm8a" path="res://Textures/Игрок/Top_Down_Survivor/feet/walk/survivor-walk_12.png" id="74_7rs8m"]
+[ext_resource type="Texture2D" uid="uid://coytvon48ih63" path="res://Textures/Игрок/Top_Down_Survivor/feet/walk/survivor-walk_13.png" id="75_7s2nw"]
+[ext_resource type="Texture2D" uid="uid://c00x73wjn8pda" path="res://Textures/Игрок/Top_Down_Survivor/feet/walk/survivor-walk_14.png" id="76_6kbb5"]
+[ext_resource type="Texture2D" uid="uid://1xvnkpi3yp5t" path="res://Textures/Игрок/Top_Down_Survivor/feet/walk/survivor-walk_15.png" id="77_0hblt"]
+[ext_resource type="Texture2D" uid="uid://cdexjxcgftklm" path="res://Textures/Игрок/Top_Down_Survivor/feet/walk/survivor-walk_16.png" id="78_o62sq"]
+[ext_resource type="Texture2D" uid="uid://dr724pw3gyxxk" path="res://Textures/Игрок/Top_Down_Survivor/feet/walk/survivor-walk_17.png" id="79_jltdh"]
+[ext_resource type="Texture2D" uid="uid://d25pl41tg564u" path="res://Textures/Игрок/Top_Down_Survivor/feet/walk/survivor-walk_18.png" id="80_30y2g"]
+[ext_resource type="Texture2D" uid="uid://bk4m0oyoeie7q" path="res://Textures/Игрок/Top_Down_Survivor/feet/walk/survivor-walk_19.png" id="81_n4tw8"]
+[ext_resource type="Texture2D" uid="uid://scxe5f54105m" path="res://Textures/Игрок/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_0.png" id="82_cg4bv"]
+[ext_resource type="Texture2D" uid="uid://dliynhavuuur" path="res://Textures/Игрок/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_1.png" id="83_5xxh7"]
+[ext_resource type="Texture2D" uid="uid://dn5ftc2mp02lg" path="res://Textures/Игрок/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_2.png" id="84_5un75"]
+[ext_resource type="Texture2D" uid="uid://fykbdje04fye" path="res://Textures/Игрок/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_3.png" id="85_v76sx"]
+[ext_resource type="Texture2D" uid="uid://dup5i2hcfuxda" path="res://Textures/Игрок/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_4.png" id="86_dxncu"]
+[ext_resource type="Texture2D" uid="uid://b50fpa2v16jnt" path="res://Textures/Игрок/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_5.png" id="87_tgi02"]
+[ext_resource type="Texture2D" uid="uid://cvef3i3rdf0cx" path="res://Textures/Игрок/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_6.png" id="88_350sb"]
+[ext_resource type="Texture2D" uid="uid://dclnpy30pcodi" path="res://Textures/Игрок/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_7.png" id="89_clpr6"]
+[ext_resource type="Texture2D" uid="uid://dppiq54vrahjf" path="res://Textures/Игрок/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_8.png" id="90_a8h1b"]
+[ext_resource type="Texture2D" uid="uid://bh18mps5sq1te" path="res://Textures/Игрок/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_9.png" id="91_1yobx"]
+[ext_resource type="Texture2D" uid="uid://dueh41jqari35" path="res://Textures/Игрок/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_10.png" id="92_dugqs"]
+[ext_resource type="Texture2D" uid="uid://c6fvxskm6kv1p" path="res://Textures/Игрок/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_11.png" id="93_opsut"]
+[ext_resource type="Texture2D" uid="uid://dvnob86juo1ju" path="res://Textures/Игрок/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_12.png" id="94_kf2cg"]
+[ext_resource type="Texture2D" uid="uid://ddwgy4nsrwk6q" path="res://Textures/Игрок/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_13.png" id="95_7oajy"]
+[ext_resource type="Texture2D" uid="uid://dga81oxffutuf" path="res://Textures/Игрок/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_14.png" id="96_putmv"]
+[ext_resource type="Texture2D" uid="uid://d1ady5hfp7aqw" path="res://Textures/Игрок/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_15.png" id="97_42xjn"]
+[ext_resource type="Texture2D" uid="uid://dbx56aemsqqe4" path="res://Textures/Игрок/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_16.png" id="98_lyvbx"]
+[ext_resource type="Texture2D" uid="uid://daqh5mdnkjfrd" path="res://Textures/Игрок/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_17.png" id="99_g3j25"]
+[ext_resource type="Texture2D" uid="uid://dqfosgpcruqi4" path="res://Textures/Игрок/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_18.png" id="100_conkd"]
+[ext_resource type="Texture2D" uid="uid://cel5v5my0y20x" path="res://Textures/Игрок/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_19.png" id="101_8vg0g"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_lao3j"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_14ki3")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_uvwc7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_t1r1w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_s3u64")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_0cppb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_s2qaf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_jr4hp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_8h4oy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_x8yfv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_sg72k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_fjjiw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_24pht")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_lvpu8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_iw8ov")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_s5ecd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_6ccf0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_uh6ff")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_ihrpn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_4rjh6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_cq7w1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_ho16k")
+}],
+"loop": true,
+"name": &"run",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("22_o712r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_hfnjl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_uxqhi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_vbb78")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_7anab")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_q7v0o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_gc6xv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_473p5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_yj2ec")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_a1mwt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_7rvty")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_npbv3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_n2sjk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_kl5x6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_3e4cc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_siibh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_kfwar")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_k2btx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_76dak")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_wf5ty")
+}],
+"loop": true,
+"name": &"strafe_left",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("42_cnw1c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_e77uf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_2yuc3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_sjehy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_sg5e1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_c83yi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_nyd3j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_0gchq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_5w755")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_552og")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_giuho")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_gmm01")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_ott2s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_ftehy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_ylvu8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_lustd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_gbwas")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_ljkmv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_8k4al")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_e0hkx")
+}],
+"loop": true,
+"name": &"strafe_right",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("62_xtit1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_151ft")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_274r3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65_5e4ga")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66_rntbp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_xw5nt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_rie18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_eycad")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_3t3b1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71_dixlh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_pd0oe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73_dxcir")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74_7rs8m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75_7s2nw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76_6kbb5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77_0hblt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78_o62sq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79_jltdh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80_30y2g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81_n4tw8")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 20.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_jhrtw"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("82_cg4bv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83_5xxh7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84_5un75")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85_v76sx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86_dxncu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87_tgi02")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88_350sb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89_clpr6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90_a8h1b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91_1yobx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92_dugqs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93_opsut")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94_kf2cg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95_7oajy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96_putmv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97_42xjn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98_lyvbx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99_g3j25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100_conkd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101_8vg0g")
+}],
+"loop": true,
+"name": &"Flashlight",
+"speed": 20.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_5ca5e"]
+radius = 65.0
+
+[node name="player" type="CharacterBody2D"]
+script = ExtResource("1_uvwc7")
+
+[node name="feet" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_lao3j")
+animation = &"strafe_left"
+
+[node name="body" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_jhrtw")
+animation = &"Flashlight"
+centered = false
+offset = Vector2(-93, -107)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_5ca5e")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(3, 3)
+scale = Vector2(1.6805176, -0.003452248)

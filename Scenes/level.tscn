@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://5veinl6qyx0a"]
+
+[ext_resource type="Texture2D" uid="uid://b10vngu5pr5j2" path="res://Textures/Фон Трава.png" id="1_tumq0"]
+[ext_resource type="PackedScene" uid="uid://cfpdr7tviqkfh" path="res://Scenes/player.tscn" id="2_k5f4k"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(1114.5, 1149.5)
+scale = Vector2(4.466, 4.59)
+texture = ExtResource("1_tumq0")
+
+[node name="player" parent="." instance=ExtResource("2_k5f4k")]
+position = Vector2(297, 253)
