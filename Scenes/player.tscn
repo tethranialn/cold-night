@@ -1,4 +1,4 @@
-[gd_scene load_steps=141 format=3 uid="uid://cfpdr7tviqkfh"]
+[gd_scene format=3 uid="uid://cfpdr7tviqkfh"]
 
 [ext_resource type="Texture2D" uid="uid://58tosebk66aq" path="res://Textures/Игрок/Top_Down_Survivor/feet/idle/survivor-idle_0.png" id="1_14ki3"]
 [ext_resource type="Script" uid="uid://cikli7bjnijki" path="res://Scripts/player.gd" id="1_uvwc7"]
@@ -595,22 +595,20 @@ animations = [{
 [sub_resource type="CircleShape2D" id="CircleShape2D_5ca5e"]
 radius = 65.0
 
-[node name="player" type="CharacterBody2D"]
+[node name="player" type="CharacterBody2D" unique_id=375935215]
 script = ExtResource("1_uvwc7")
 
-[node name="feet" type="AnimatedSprite2D" parent="."]
+[node name="feet" type="AnimatedSprite2D" parent="." unique_id=1931469045]
 sprite_frames = SubResource("SpriteFrames_lao3j")
 animation = &"run"
 
-[node name="body" type="AnimatedSprite2D" parent="."]
+[node name="body" type="AnimatedSprite2D" parent="." unique_id=1017340304]
 sprite_frames = SubResource("SpriteFrames_jhrtw")
 animation = &"Knife_idle"
 centered = false
 offset = Vector2(-105, -113)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=674397032]
 shape = SubResource("CircleShape2D_5ca5e")
 
-[node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2(3, 3)
-scale = Vector2(1.6805176, -0.003452248)
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1948265908]

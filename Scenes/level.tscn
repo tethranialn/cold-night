@@ -1,29 +1,30 @@
-[gd_scene load_steps=3 format=3 uid="uid://5veinl6qyx0a"]
+[gd_scene format=3 uid="uid://5veinl6qyx0a"]
 
 [ext_resource type="Texture2D" uid="uid://b10vngu5pr5j2" path="res://Textures/Фон Трава.png" id="1_tumq0"]
 [ext_resource type="PackedScene" uid="uid://cfpdr7tviqkfh" path="res://Scenes/player.tscn" id="2_k5f4k"]
 
-[node name="Node2D" type="Node2D"]
+[node name="Node2D" type="Node2D" unique_id=1941033147]
+position = Vector2(-1, -2)
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1686087625]
 position = Vector2(1115.5, 1100)
 scale = Vector2(4.827, 5)
 texture = ExtResource("1_tumq0")
 
-[node name="Sprite2D2" type="Sprite2D" parent="."]
+[node name="Sprite2D2" type="Sprite2D" parent="." unique_id=949336383]
 position = Vector2(3529.0002, 1100)
 scale = Vector2(4.827, 5)
 texture = ExtResource("1_tumq0")
 
-[node name="Sprite2D3" type="Sprite2D" parent="."]
+[node name="Sprite2D3" type="Sprite2D" parent="." unique_id=1465242408]
 position = Vector2(1115.75, 3600)
 scale = Vector2(4.827, 5)
 texture = ExtResource("1_tumq0")
 
-[node name="Sprite2D4" type="Sprite2D" parent="."]
+[node name="Sprite2D4" type="Sprite2D" parent="." unique_id=1130626646]
 position = Vector2(3528.25, 3600)
 scale = Vector2(4.827, 5)
 texture = ExtResource("1_tumq0")
 
-[node name="player" parent="." instance=ExtResource("2_k5f4k")]
+[node name="player" parent="." unique_id=476664000 instance=ExtResource("2_k5f4k")]
 position = Vector2(2354, 2232)
